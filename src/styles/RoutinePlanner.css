@@ -1,0 +1,171 @@
+/* RoutinePlanner.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegúrate de que sea más alto que otros elementos */
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    z-index: 1001; /* Asegúrate de que sea más alto que el overlay */
+  }
+.routine-planner-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .week-day-container {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .week-day-container h3 {
+    text-align: center;
+  }
+  
+  .schedule-day {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 300px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    position: relative;
+  }
+  
+  .exercise-item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    position: relative;
+    cursor: move; /* Indica que el elemento se puede arrastrar */
+    transition: background-color 0.3s ease;
+  }
+  
+  .exercise-item:hover {
+    background-color: #e9ecef; /* Cambio de color al pasar el ratón por encima */
+  }
+  
+  .exercise-item strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .exercise-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .exercise-item button:hover {
+    background-color: #c82333;
+  }
+  
+  .exercise-item button:focus {
+    outline: none;
+  }
+  
+  .exercise-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .exercise-label input {
+    margin-left: 5px;
+    width: 60px;
+  }
+  
+  .favorites-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .favorites-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move; /* Indica que el elemento se puede arrastrar */
+    transition: background-color 0.3s ease;
+  }
+  
+  .favorites-item:hover {
+    background-color: #e9ecef; /* Cambio de color al pasar el ratón por encima */
+  }
+  
+  .favorites-item strong {
+    margin-right: 10px;
+  }
+  
+  .favorites-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .favorites-item button:hover {
+    background-color: #c82333;
+  }
+  
+  .favorites-item button:focus {
+    outline: none;
+  }
+  
+  .modal {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal button:focus {
+    outline: none;
+  }
+  

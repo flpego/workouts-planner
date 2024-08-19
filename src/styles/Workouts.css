@@ -1,0 +1,70 @@
+/* Workouts.css */
+
+.workouts-container {
+    padding: 20px;
+  }
+  
+  .workouts-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .workouts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .workouts-list li {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .workouts-list strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .workouts-list small {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .workouts-list button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .workouts-list button:hover {
+    background-color: #218838;
+  }
+  
+  .workouts-list button:focus {
+    outline: none;
+  }
+  
+  .workouts-list button:active {
+    background-color: #1e7e34;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .error {
+    font-size: 18px;
+    color: #dc3545;
+  }
+  
+  .routine-planner-container {
+    margin-top: 20px;
+  }
+  

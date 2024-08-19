@@ -1,0 +1,35 @@
+/* MenuWorkout.css */
+
+.menu-workout-container {
+    padding: 20px;
+    width: 80%;
+  }
+  
+  .menu-workout-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menu-workout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-workout-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .menu-workout-button:focus {
+    outline: none;
+  }
+  
+  .menu-workout-button:active {
+    background-color: #00409b;
+  }
+  
